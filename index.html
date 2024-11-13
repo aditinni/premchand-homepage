@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munsi Premchand</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #fff;
+            width: 100vw;
+        }
+        .flex {
+            display: flex;
+        }
+        .nav-flex {
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px;
+            flex-wrap: wrap;
+        }
+        .items {
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .nav-flex h1 {
+            color: #f46221;
+        }
+        .items a {
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+            font-weight: bolder;
+            transition: color 1s;
+        }
+        .items a:hover {
+            color: #f46221;
+            transition: color 1s;
+        }
+
+        /* Introduction section */
+        .introduction {
+            width: 100vw;
+            min-height: 80vh;
+            background-color: #f4885b;
+        }
+        .flex-intro {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+
+        }
+        .flex-intro img {
+            max-width: 200px;
+            margin-bottom: 15px;
+        }
+        .flex-intro p {
+            color: white;
+            font-size: 20px;
+            max-width: 600px;
+        }
+
+
+        .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 14px;
+        padding: 15px 5px;
+    }
+}
+.nav-flex a{
+    text-decoration: none;
+}
+
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="flex nav-flex">
+            <a href="$"><h1>Premchand - Kalam ka Sipahi</h1></a> 
+            <div class="items flex">
+                <a href="#">Stories</a>
+                <a href="#">Novels</a>
+                <a href="#">Biography</a>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <section class="introduction">
+        <div class="flex flex-intro">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Premchand_1980_stamp_of_India.jpg" alt="Premchand Image">
+            <p>
+                प्रेमचंद (1880-1936) हिंदी और उर्दू के एक महान साहित्यकार थे, जिन्हें "उपन्यास सम्राट" के नाम से भी जाना जाता है। उनका असली नाम धनपत राय श्रीवास्तव था, लेकिन उन्होंने "प्रेमचंद" उपनाम से लिखना शुरू किया। उनका साहित्यिक योगदान हिंदी साहित्य को नई ऊंचाइयों पर ले गया और भारतीय समाज के यथार्थवादी चित्रण के लिए जाना जाता है। प्रेमचंद ने अपने लेखन में सामाजिक और आर्थिक असमानताओं, गरीबी, जाति भेदभाव और शोषण की गहरी समस्याओं को उठाया और भारतीय समाज की कड़वी सच्चाइयों को उजागर किया। उनकी प्रमुख कृतियों में गोदान, गबन, कर्मभूमि और सेवासदन शामिल हैं। उनका लेखन मानवीय संवेदनाओं और समाज के विभिन्न वर्गों के जीवन को प्रभावशाली ढंग से चित्रित करता है।
+            </p>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p>“साहित्य समाज का दर्पण होता है।” - मुंशी प्रेमचंद</p>
+        <p>&copy; 2024 Premchand Website. All rights reserved.</p>
+    </footer>
+    
+
+ 
+</body>
+</html>
